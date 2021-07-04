@@ -1,0 +1,192 @@
+body {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: rgb(231, 185, 125);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: rgb(231, 185, 125) url(map.png) no-repeat;
+    background-size: cover;
+}
+
+#body1 {
+    position: relative;
+    display: block
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    width: 1920px;
+    font-size: 1em;
+    overflow: auto;
+}
+
+#board {
+    position: relative;
+    display: block;
+    height: 800px;
+    width: 700px;
+    background: rgba(218, 148, 42, 0) url(scroll1.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding: 120px 80px 10px 135px;
+    left: 370px;
+    border-radius: 5%;
+    top: 5%;
+}
+
+.tabl1 {
+    position: relative;
+    display: flex;
+    top: 1%;
+    left: 5%;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+}
+
+.tabl1 td {
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 70px;
+    height: 70px;
+}
+
+#formInput {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    margin: 0px 70px 70px 0px;
+    padding: 10px;
+    border: 3px solid rgba(136, 87, 31, 0);
+    border-radius: 50%;
+    background: rgba(136, 87, 31, 0);
+    
+}
+
+#input {
+    position: relative;
+    width: 250px;
+    height: 40px;
+    margin: 3px 10px 3px 0;
+    padding: 0;
+    font-size: 1em;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    background: rgba(231, 97, 53, 0);
+    text-align: center;
+    border-radius: 40%;
+}
+
+#input::placeholder {
+    color: rgb(66, 66, 66);
+    font-weight: 700;
+    font-size: .9em;
+}
+
+#fire {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    margin: 3px 10px 3px 0;
+    padding: 0;
+    font-size: 1em;
+    background-color: rgba(255, 8, 8, 0);
+    font-weight: 700;
+    border-radius: 50%;
+    color: rgb(66, 66, 66);
+}
+
+#messageDiv {
+    position: absolute;
+    display: block;
+    width: 350px;
+    height: 500px;
+    border: 5px solid rgba(168, 95, 46, 0);
+    top: 37%;
+    left: 80px;
+    background: rgba(175, 111, 28, 0) url(scroll2.png) no-repeat;
+    background-size: contain;
+    margin: 0;
+    bottom: 0;
+}
+
+#message {
+    position: relative;
+    display: flex;
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: 700;
+    color: rgb(90, 64, 7);
+    letter-spacing: 2px;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    top: 50%;
+    transform: translate(0, -50%);
+    font-family: 'matura mt script capitals';
+}
+
+.tabl1 .A0 {
+    color: rgb(90, 64, 7);
+    border: 1px solid black;
+    border-radius: 0%;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#z00 {
+    border: 0px;
+    background: rgba(0, 100, 0, 0);
+}
+
+#tabl2 {
+    position: absolute;
+    display: flex;
+    left: 1250px;
+    top: 35%;
+    background: url(scroll3.png) no-repeat;
+    background-size: contain;
+    min-width: auto;
+    min-height: auto;
+    padding: 50px 140px;
+}
+
+.tabl2 {
+    position: relative;
+    display: flex;
+    border: 5px solid rgba(168, 95, 46, 0);
+    border-spacing: 10px;
+    background: rgba(175, 111, 28, 0);
+    border-radius: 10%;
+    min-width: 298px;
+    min-height: 298px;
+}
+
+.tabl2 td {
+    position: relative;
+    border: 0px solid rgba(43, 165, 60, 0.678);
+    border-radius: 10%;
+    width: 60px;
+    height: 60px;
+    background: rgba(35, 99, 32, 0) url('ship.png') no-repeat;
+    background-size: cover;
+}
+
+.miss {
+    background: url('miss.png') no-repeat;
+    background-size: cover;
+}
+
+.hit {
+    background: url('ship.png') no-repeat;
+    background-size: cover;
+}
+
+#miss {
+    background: url('miss.png') no-repeat;
+    background-size: cover;
+}
